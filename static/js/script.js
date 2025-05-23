@@ -65,7 +65,7 @@ let socket;
 let reconnectInterval = 5000; // 5 secondes avant de retenter
 
 function connectWebSocket() {
-    socket = new WebSocket('ws://192.168.10.167:8000/ws/monitor/');
+    socket = new WebSocket('ws://192.168.10.131:8000/ws/monitor/');
 
     socket.onopen = () => {
         console.log('%c[+] WebSocket connected', 'color: lime');
