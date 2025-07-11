@@ -1,0 +1,10 @@
+python3 
+django
+daphne
+channels
+psutil
+pyudev
+pynput
+scapy
+psycopg
+whitenoise
