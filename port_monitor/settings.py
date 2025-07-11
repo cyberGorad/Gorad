@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-tb5^k#d^lnf2i*@5(8olm&x1@g%!g8s9g322(*462li^6goa@7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.43.226', 'localhost', '127.0.0.1', '192.168.10.167', "4a1f-102-17-119-182.ngrok-free.app", "0.0.0.0"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -80,14 +80,11 @@ WSGI_APPLICATION = 'port_monitor.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',  # Indique l'utilisation de PostgreSQL
-        'NAME': 'gorad_db',  # Le nom de ta base de données
-        'USER': 'cybergorad',  # L'utilisateur PostgreSQL que tu as créé
-        'PASSWORD': '@Tsilavina2610',  # Le mot de passe de l'utilisateur PostgreSQL
-        'HOST': 'localhost',  # Si PostgreSQL est local
-        'PORT': '5432',  # Le port par défaut de PostgreSQL
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
 
 
 # Password validation

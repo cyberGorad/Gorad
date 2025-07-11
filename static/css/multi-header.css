@@ -63,7 +63,7 @@ body {
         margin-right: 15px;
     }
 
-    @media (max-width: 900px) {
+    @media (max-width: 1200px) {
         .menu-links {
             display: none;
             flex-direction: column;
@@ -77,9 +77,42 @@ body {
             z-index: 99;
             width: 300px;
         }
+        .state_container {
+            width: 350px;
+            font-size: 5px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            background-color: transparent;
+
+
+
+ 
+        }
+        #led-online {
+            display: none;
+        }
+        .agent-counter {
+            margin-top: 20px;
+        }
+
+
+        #goodMachinesCount {
+            font-size: 5px;
+        }
 
         .menu-links.show {
             display: flex;
+            justify-content: space-around;
+            margin-top: 5px;
+        }
+        #settings-menu {
+            margin-top:20px;
+        }
+        #uploadProcessJson {
+            margin-top: 20px;
+        }
+        .dropbtn {
+            margin-top: 5px;
         }
 
         .burger {

@@ -166,8 +166,6 @@ h1 {
 
 
 /* CARD INTER CARD */
-
-
 .inter-container {
   display: flex;
   flex-wrap: wrap;
@@ -255,6 +253,7 @@ h1 {
   border-radius: 10px;
 
   transition: all 0.6s ease-in-out;  /* Transition douce pour les effets */
+  
 
 }
 
@@ -507,7 +506,6 @@ transform: scaleY(1);
 
 
 
-
 /* CIRCLE CPU */
 
 .circular-chart {
@@ -568,6 +566,8 @@ transform: scaleY(1);
 .dropdown-content {
   display: none;
   position: absolute;
+  right: 10px;
+  left: 10px;
   text-align: center;
   background-color: black;
   color: #00FF00;
@@ -583,14 +583,16 @@ transform: scaleY(1);
 }
 .show-dropdown-content {
   display: flex;
+  left: 10px;
+  right: 10px;
   flex-direction: column;
   position: absolute;
   text-align: center;
   background-color: black;
   padding: 5px;
   color: #00FF00;
-  max-height: 500px;
-  min-width: 200px;
+  max-height: 700px;
+  min-width: 300px;
   overflow: scroll;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -612,6 +614,9 @@ transform: scaleY(1);
 #toggleMusicBtn {
     cursor: pointer;
 }
+
+
+
 
 
 

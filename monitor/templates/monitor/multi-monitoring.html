@@ -43,14 +43,16 @@
           <button onclick="sendProcessmultiConfig()" style="background-color: black;color: #00ff00;border-radius: 10px;margin-left: -50px;margin-right: 5px;">Upload Process</button>
 
 
+          <div class="led led-green" style="margin-right: 5px;" id="led-online"></div>
                 <div id="agent-count" class="agent-counter">
-                  🖧 Machine connected : <span id="agent-number">0</span>
+
+                   Machine online : <span id="agent-number">0</span>
                 </div>
 
                 <span id="machine-id"></span>
                 <a id="home_btn" href="{% url 'index' %}">Home</a>
 
-                <a id="browser" href="{% url 'browser'%}">Browser history viewer</a>
+                <a id="browser" href="{% url 'browser'%}" target="_blank">Browser</a>
 
 
 
@@ -81,12 +83,15 @@
                       </div>
                     </div>
                     
+
+
                     <style>
 
                       .output-row {
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
+                        margin-right: 20px;
                       }
                   
                     

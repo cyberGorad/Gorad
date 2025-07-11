@@ -1,0 +1,13 @@
+daphne
+python3 -m venv venv
+
+source venv/bin/activate
+daphne
+django
+channels
+psutil
+pyudev
+pynput
+scapy
+psycopg
+whitenoise

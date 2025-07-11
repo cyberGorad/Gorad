@@ -1,8 +1,10 @@
     // Fonction pour mettre à jour le nombre d'agents connectés
     function updateAgentCount() {
       const count = Object.keys(machines).length;
-      agentCount.textContent = `${count} Machine${count !== 1 ? 's' : ''} connected${count !== 1 ? 's' : ''}`;
+      agentCount.textContent = `${count} Machine${count !== 1 ? '' : ''} online ${count !== 1 ? '' : ''}`;
     }
+
+    
 const loaderContainer = document.querySelector('.loader-container');
 const content = document.querySelector('.content');
 const dashboard = document.getElementById('dashboard');
@@ -10,7 +12,11 @@ const agentCount = document.getElementById('agent-count');
 const noMachine = document.getElementById('no-machine');
 
 let ws;
-const SERVER_URL = 'ws://192.168.10.232:9000';
+/* VERSION IO AUTOMATION */
+
+const host = window.location.hostname;
+
+const SERVER_URL = `ws://${host}:9000`;
 const machines = {}; // { hostname: { card, lastSeen } }
 const TIMEOUT = 30000; // 30 secondes d'inactivité avant suppression
 let reconnectInterval = 5000; // Intervalle de reconnexion (5 secondes)
@@ -483,7 +489,7 @@ function updateMachineCard(data, hostname) {
 
 
 
-<div class="card-inter">${data.os}</div>
+<div class="card-inter" style="font-size:10px;">${data.os}</div>
 
 
 
@@ -512,7 +518,7 @@ function updateMachineCard(data, hostname) {
 
     <div class="full-card-inter"><span class="section-title"></span>${outboundTrafficDetails}</div>
       
-      <div class="full-card-inter"><span class="section-title">Cron</span><br>${data.cron_jobs}</div>
+      <div class="full-card-inter" style="font-size:10px;">${data.cron_jobs}</div>
 
    
       
@@ -708,7 +714,7 @@ function createNewMachineCard(data, hostname) {
 
 
 
-<div class="card-inter">${data.os}</div>
+<div class="card-inter" style="font-size:10px;">${data.os}</div>
 
 
 
@@ -737,7 +743,7 @@ function createNewMachineCard(data, hostname) {
 
     <div class="full-card-inter"><span class="section-title"></span>${outboundTrafficDetails}</div>
       
-      <div class="full-card-inter"><span class="section-title">Cron</span><br>${data.cron_jobs}</div>
+      <div class="full-card-inter" style="font-size:10px;">${data.cron_jobs}</div>
 
    
       
@@ -792,15 +798,15 @@ function buildOpenPortsDetails(openPorts) {
 
   openPorts.forEach(p => {
     openPortsDetails += `
-      <div style="display: flex; align-items: center; padding: 6px 5px; border-radius: 6px;font-size:10px;justify-content:space-around;">
+      <div style="display: flex; align-items: center; border-radius: 6px;font-size:10px;justify-content:space-around;">
  
-        <span style="color:violet;"><p>Port</p> ${p.port}</span>
+        <span style="color:violet;"><p style="color:white;">Port</p> ${p.port}</span>
 
 
-        <span><p>pid</p> ${p.pid ?? "N/A"}</span>
+        <span><p style="color:white;">pid</p> ${p.pid ?? "N/A"}</span>
 
 
-        <span style="color:green;"><p>Proc</p> ${p.process}</span>
+        <span style="color:green;"><p style="color:white;">Proc</p> ${p.process}</span>
       </div>`;
   });
 
@@ -851,7 +857,10 @@ function buildDiskDetails(disk) {
         ? 'red'
         : 'white';
 
-    diskDetails += `<li style="color: ${color};font-size: 8px;margin-top:5px;"><p>${mount}</p> ${percent}%</li>`;
+        diskDetails += `<li style="color: ${color}; font-size: 8px; margin-right: 10px; display: inline-block;">
+        <p style="display: inline;text-align:center;">${mount} : </p> ${percent}% <br>
+    </li>`;
+
   }
 
   diskDetails += '</ul>';

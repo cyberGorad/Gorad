@@ -141,3 +141,86 @@
 [2025-06-11 08:48:09] {"type": "unauthorized_processes_alert", "processes": [{"pid": 95008, "name": "pagekite", "status": "unauthorized"}, {"pid": 2929, "name": "codium", "status": "unauthorized"}, {"pid": 1055, "name": "chronyd", "status": "unauthorized"}, {"pid": 979, "name": "networkmanager", "status": "unauthorized"}]}
 [2023-12-24 15:43:58] {"type": "unauthorized_processes_alert", "processes": [{"pid": 2450, "name": "codium", "status": "unauthorized"}, {"pid": 1028, "name": "chronyd", "status": "unauthorized"}]}
 [2023-12-24 15:44:51] {"type": "unauthorized_processes_alert", "processes": [{"pid": 3806, "name": "codium", "status": "unauthorized"}]}
+[2023-12-24 15:48:14] {"type": "unauthorized_processes_alert", "processes": [{"pid": 2848, "name": "codium", "status": "unauthorized"}, {"pid": 1055, "name": "chronyd", "status": "unauthorized"}]}
+[2023-12-24 15:50:40] {"type": "unauthorized_processes_alert", "processes": [{"pid": 2848, "name": "codium", "status": "unauthorized"}, {"pid": 1055, "name": "chronyd", "status": "unauthorized"}]}
+[2025-06-23 09:16:03] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1055, "name": "chronyd", "status": "unauthorized"}, {"pid": 990, "name": "networkmanager", "status": "unauthorized"}]}
+[2025-06-23 09:16:20] {"type": "unauthorized_processes_alert", "processes": [{"pid": 82810, "name": "nc", "status": "unauthorized"}]}
+[2025-06-23 09:17:20] {"type": "unauthorized_processes_alert", "processes": [{"pid": 82902, "name": "nc", "status": "unauthorized"}]}
+[2025-06-23 09:18:20] {"type": "unauthorized_processes_alert", "processes": [{"pid": 82960, "name": "nc", "status": "unauthorized"}]}
+[2025-06-23 09:19:30] {"type": "unauthorized_processes_alert", "processes": [{"pid": 82998, "name": "nc", "status": "unauthorized"}]}
+[2025-06-23 09:20:20] {"type": "unauthorized_processes_alert", "processes": [{"pid": 83088, "name": "nc", "status": "unauthorized"}]}
+[2025-06-23 09:21:20] {"type": "unauthorized_processes_alert", "processes": [{"pid": 83192, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 04:33:33] {"type": "unauthorized_processes_alert", "processes": [{"pid": 994, "name": "networkmanager", "status": "unauthorized"}, {"pid": 1068, "name": "chronyd", "status": "unauthorized"}, {"pid": 2451, "name": "codium", "status": "unauthorized"}]}
+[2025-06-25 04:33:41] {"type": "unauthorized_processes_alert", "processes": [{"pid": 3625, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 04:34:41] {"type": "unauthorized_processes_alert", "processes": [{"pid": 3776, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 04:36:07] {"type": "unauthorized_processes_alert", "processes": [{"pid": 4001, "name": "codium", "status": "unauthorized"}]}
+[2025-06-25 04:36:18] {"type": "unauthorized_processes_alert", "processes": [{"pid": 4154, "name": "npm install types-registry@latest", "status": "unauthorized"}]}
+[2025-06-25 04:37:31] {"type": "unauthorized_processes_alert", "processes": [{"pid": 4362, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 04:37:42] {"type": "unauthorized_processes_alert", "processes": [{"pid": 4377, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 04:42:47] {"type": "unauthorized_processes_alert", "processes": [{"pid": 5437, "name": "test.elf", "status": "unauthorized"}]}
+[2025-06-25 04:43:26] {"type": "unauthorized_processes_alert", "processes": [{"pid": 5524, "name": "virus_dangeureux.elf", "status": "unauthorized"}]}
+[2025-06-25 04:43:41] {"type": "unauthorized_processes_alert", "processes": [{"pid": 5580, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 04:44:41] {"type": "unauthorized_processes_alert", "processes": [{"pid": 5693, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 04:45:41] {"type": "unauthorized_processes_alert", "processes": [{"pid": 5779, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 04:46:42] {"type": "unauthorized_processes_alert", "processes": [{"pid": 5889, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 04:48:58] {"type": "unauthorized_processes_alert", "processes": [{"pid": 65119, "name": "https", "status": "unauthorized"}, {"pid": 65120, "name": "http", "status": "unauthorized"}]}
+[2025-06-25 04:49:46] {"type": "unauthorized_processes_alert", "processes": [{"pid": 65734, "name": "virus_dangeureux.elf", "status": "unauthorized"}]}
+[2025-06-25 04:51:42] {"type": "unauthorized_processes_alert", "processes": [{"pid": 77876, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 04:58:32] {"type": "unauthorized_processes_alert", "processes": [{"pid": 994, "name": "networkmanager", "status": "unauthorized"}, {"pid": 1068, "name": "chronyd", "status": "unauthorized"}]}
+[2025-06-25 09:01:02] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1059, "name": "chronyd", "status": "unauthorized"}, {"pid": 982, "name": "networkmanager", "status": "unauthorized"}]}
+[2025-06-25 09:01:27] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1059, "name": "chronyd", "status": "unauthorized"}, {"pid": 982, "name": "networkmanager", "status": "unauthorized"}]}
+[2025-06-25 09:01:33] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1059, "name": "chronyd", "status": "unauthorized"}, {"pid": 982, "name": "networkmanager", "status": "unauthorized"}]}
+[2025-06-25 09:01:47] {"type": "unauthorized_processes_alert", "processes": [{"pid": 3832, "name": "gvfsd-smb-browse", "status": "unauthorized"}]}
+[2025-06-25 09:02:16] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1059, "name": "chronyd", "status": "unauthorized"}, {"pid": 982, "name": "networkmanager", "status": "unauthorized"}]}
+[2025-06-25 09:02:57] {"type": "unauthorized_processes_alert", "processes": [{"pid": 4097, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 09:02:57] {"type": "unauthorized_processes_alert", "processes": [{"pid": 4097, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 09:03:12] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1059, "name": "chronyd", "status": "unauthorized"}, {"pid": 982, "name": "networkmanager", "status": "unauthorized"}]}
+[2025-06-25 09:03:53] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1059, "name": "chronyd", "status": "unauthorized"}, {"pid": 982, "name": "networkmanager", "status": "unauthorized"}]}
+[2025-06-25 09:03:55] {"type": "unauthorized_processes_alert", "processes": [{"pid": 4475, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 09:05:05] {"type": "unauthorized_processes_alert", "processes": [{"pid": 4628, "name": "wpsoffice", "status": "unauthorized"}]}
+[2025-06-25 09:05:32] {"type": "unauthorized_processes_alert", "processes": [{"pid": 5254, "name": "npm exec autoca", "status": "unauthorized"}]}
+[2025-06-25 09:06:08] {"type": "unauthorized_processes_alert", "processes": [{"pid": 5316, "name": "npm exec autoca", "status": "unauthorized"}]}
+[2025-06-25 09:20:55] {"type": "unauthorized_processes_alert", "processes": [{"pid": 6406, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 09:22:41] {"type": "unauthorized_processes_alert", "processes": [{"pid": 6529, "name": "java", "status": "unauthorized"}]}
+[2025-06-25 09:27:51] {"type": "unauthorized_processes_alert", "processes": [{"pid": 7101, "name": "npm install lighthouse", "status": "unauthorized"}]}
+[2025-06-25 09:27:57] {"type": "unauthorized_processes_alert", "processes": [{"pid": 7125, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 09:29:21] {"type": "unauthorized_processes_alert", "processes": [{"pid": 7213, "name": "npm exec lighthouse", "status": "unauthorized"}]}
+[2025-06-25 09:30:57] {"type": "unauthorized_processes_alert", "processes": [{"pid": 7366, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 09:31:57] {"type": "unauthorized_processes_alert", "processes": [{"pid": 7424, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 09:32:09] {"type": "unauthorized_processes_alert", "processes": [{"pid": 7455, "name": "ping", "status": "unauthorized"}]}
+[2025-06-25 09:32:57] {"type": "unauthorized_processes_alert", "processes": [{"pid": 7466, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 09:37:55] {"type": "unauthorized_processes_alert", "processes": [{"pid": 7686, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 09:38:55] {"type": "unauthorized_processes_alert", "processes": [{"pid": 7710, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 09:39:55] {"type": "unauthorized_processes_alert", "processes": [{"pid": 7789, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 09:40:55] {"type": "unauthorized_processes_alert", "processes": [{"pid": 7822, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 09:41:55] {"type": "unauthorized_processes_alert", "processes": [{"pid": 7989, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 09:42:55] {"type": "unauthorized_processes_alert", "processes": [{"pid": 8135, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 09:43:55] {"type": "unauthorized_processes_alert", "processes": [{"pid": 8336, "name": "nc", "status": "unauthorized"}]}
+[2025-06-25 09:47:26] {"type": "unauthorized_processes_alert", "processes": [{"pid": 8612, "name": "pagekite", "status": "unauthorized"}]}
+[2025-06-25 09:47:56] {"type": "unauthorized_processes_alert", "processes": [{"pid": 8649, "name": "nc", "status": "unauthorized"}]}
+[2023-12-24 16:07:05] {"type": "unauthorized_processes_alert", "processes": [{"pid": 2522, "name": "codium", "status": "unauthorized"}, {"pid": 1010, "name": "chronyd", "status": "unauthorized"}, {"pid": 942, "name": "networkmanager", "status": "unauthorized"}]}
+[2023-12-24 16:24:18] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1017, "name": "chronyd", "status": "unauthorized"}]}
+[2025-06-30 12:17:10] {"type": "unauthorized_processes_alert", "processes": [{"pid": 2522, "name": "codium", "status": "unauthorized"}, {"pid": 1010, "name": "chronyd", "status": "unauthorized"}, {"pid": 942, "name": "networkmanager", "status": "unauthorized"}]}
+[2025-06-30 12:17:33] {"type": "unauthorized_processes_alert", "processes": [{"pid": 32405, "name": "nc", "status": "unauthorized"}]}
+[2025-06-30 12:18:10] {"type": "unauthorized_processes_alert", "processes": [{"pid": 66132, "name": "https", "status": "unauthorized"}, {"pid": 66133, "name": "http", "status": "unauthorized"}]}
+[2025-06-30 12:22:40] {"type": "unauthorized_processes_alert", "processes": [{"pid": 67469, "name": "pagekite", "status": "unauthorized"}]}
+[2025-06-30 12:23:35] {"type": "unauthorized_processes_alert", "processes": [{"pid": 67562, "name": "nc", "status": "unauthorized"}]}
+[2023-12-24 15:48:53] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1048, "name": "chronyd", "status": "unauthorized"}]}
+[2023-12-24 15:49:47] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1048, "name": "chronyd", "status": "unauthorized"}]}
+[2023-12-24 15:53:23] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1048, "name": "chronyd", "status": "unauthorized"}]}
+[2025-07-06 19:40:27] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1036, "name": "chronyd", "status": "unauthorized"}, {"pid": 2987, "name": "cupsd", "status": "unauthorized"}, {"pid": 968, "name": "networkmanager", "status": "unauthorized"}]}
+[2025-07-11 07:18:33] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1029, "name": "cupsd", "status": "unauthorized"}, {"pid": 985, "name": "networkmanager", "status": "unauthorized"}, {"pid": 1064, "name": "chronyd", "status": "unauthorized"}]}
+[2025-07-11 07:21:15] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1064, "name": "chronyd", "status": "unauthorized"}, {"pid": 1029, "name": "cupsd", "status": "unauthorized"}]}
+[2025-07-11 07:21:40] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1029, "name": "cupsd", "status": "unauthorized"}, {"pid": 985, "name": "networkmanager", "status": "unauthorized"}, {"pid": 1064, "name": "chronyd", "status": "unauthorized"}]}
+[2025-07-11 07:23:36] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1064, "name": "chronyd", "status": "unauthorized"}, {"pid": 1029, "name": "cupsd", "status": "unauthorized"}, {"pid": 985, "name": "networkmanager", "status": "unauthorized"}]}
+[2025-07-11 07:23:45] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1068, "name": "chronyd", "status": "unauthorized"}]}
+[2025-07-11 07:24:04] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1064, "name": "chronyd", "status": "unauthorized"}, {"pid": 1029, "name": "cupsd", "status": "unauthorized"}, {"pid": 985, "name": "networkmanager", "status": "unauthorized"}]}
+[2025-07-11 07:24:45] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1029, "name": "cupsd", "status": "unauthorized"}, {"pid": 1064, "name": "chronyd", "status": "unauthorized"}, {"pid": 985, "name": "networkmanager", "status": "unauthorized"}]}
+[2025-07-11 07:25:23] {"type": "unauthorized_processes_alert", "processes": [{"pid": 5588, "name": "codium", "status": "unauthorized"}]}
+[2025-07-11 07:25:38] {"type": "unauthorized_processes_alert", "processes": [{"pid": 5757, "name": "nc", "status": "unauthorized"}]}
+[2025-07-11 07:28:01] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1064, "name": "chronyd", "status": "unauthorized"}, {"pid": 1029, "name": "cupsd", "status": "unauthorized"}, {"pid": 985, "name": "networkmanager", "status": "unauthorized"}, {"pid": 5588, "name": "codium", "status": "unauthorized"}]}
+[2025-07-11 07:28:28] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1029, "name": "cupsd", "status": "unauthorized"}, {"pid": 1064, "name": "chronyd", "status": "unauthorized"}, {"pid": 5588, "name": "codium", "status": "unauthorized"}, {"pid": 985, "name": "networkmanager", "status": "unauthorized"}]}
+[2025-07-11 07:28:33] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1029, "name": "cupsd", "status": "unauthorized"}, {"pid": 1064, "name": "chronyd", "status": "unauthorized"}, {"pid": 5588, "name": "codium", "status": "unauthorized"}, {"pid": 985, "name": "networkmanager", "status": "unauthorized"}]}
+[2025-07-11 07:28:40] {"type": "unauthorized_processes_alert", "processes": [{"pid": 985, "name": "networkmanager", "status": "unauthorized"}, {"pid": 1029, "name": "cupsd", "status": "unauthorized"}, {"pid": 5588, "name": "codium", "status": "unauthorized"}, {"pid": 1064, "name": "chronyd", "status": "unauthorized"}]}
+[2025-07-11 07:32:20] {"type": "unauthorized_processes_alert", "processes": [{"pid": 1029, "name": "cupsd", "status": "unauthorized"}, {"pid": 5588, "name": "codium", "status": "unauthorized"}, {"pid": 1064, "name": "chronyd", "status": "unauthorized"}]}
+[2025-07-11 07:35:39] {"type": "unauthorized_processes_alert", "processes": [{"pid": 985, "name": "networkmanager", "status": "unauthorized"}, {"pid": 1029, "name": "cupsd", "status": "unauthorized"}, {"pid": 5588, "name": "codium", "status": "unauthorized"}, {"pid": 1064, "name": "chronyd", "status": "unauthorized"}]}

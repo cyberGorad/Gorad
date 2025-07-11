@@ -67,7 +67,8 @@ let reconnectInterval = 5000; // 5 secondes avant de retenter
 let lastInternetStatus = null;  // statut précédent
 
 function connectWebSocket() {
-    socket = new WebSocket('ws://0.0.0.0:8000/ws/monitor/');
+    const host = window.location.hostname;
+    socket = new WebSocket(`ws://${host}:8000/ws/monitor/`);
 
     socket.onopen = () => {
         console.log('%c[+] WebSocket connected', 'color: lime');
@@ -564,13 +565,13 @@ socket.onmessage = function (e) {
 document.querySelectorAll(".kill-btn").forEach(btn => {
     btn.addEventListener("click", () => {
         const pid = btn.dataset.pid;
-        if (confirm(`Ready to killl this process? ${pid} ?`)) {
+
             // Envoie la commande au backend via WebSocket ou fetch
             socket.send(JSON.stringify({
                 type: "kill-process",
                 pid: parseInt(pid)
             }));
-        }
+
     });
 });
 
