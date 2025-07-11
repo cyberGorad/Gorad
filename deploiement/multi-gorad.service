@@ -1,0 +1,16 @@
+[Unit]
+Description=IDS-GORAD - MULTI-MONITORING Powered by Cybergorad
+After=network.target
+
+[Service]
+User=root
+Group=root
+Environment=DISPLAY=:0
+WorkingDirectory=/opt/IDS-GORAD/MULTI-MONITORING
+ExecStart=/bin/bash /opt/IDS-GORAD/start_multi.sh
+Restart=always
+RestartSec=3
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target

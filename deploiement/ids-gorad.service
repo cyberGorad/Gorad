@@ -1,0 +1,16 @@
+[Unit]
+Description=IDS-GORAD - Powered by Cybergorad
+After=network.target
+
+[Service]
+User=root
+Group=root
+Environment=DISPLAY=:0
+WorkingDirectory=/opt/IDS-GORAD
+ExecStart=/bin/bash /opt/IDS-GORAD/start.sh
+Restart=always
+RestartSec=3
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target
